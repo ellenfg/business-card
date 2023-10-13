@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: Inter;
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;   
+}
+
+
+.about, .footer, .interests, .info{
+    text-align: center;
+    width: 317px;
+    color: #FFFFFF;
+    background-color: #1A1B21;
+    display: inline-block;
+}
+
+.footer, .interests, .about{
+    margin: 0px 116.5px;
+}
+
+.dp {
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.footer {
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.info { 
+    margin: 120px 116.5px 0px 116.5px;
+}
+
+.subheading {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 10px 0px;
+}
+
+.text {
+    font-size: 10.24px;
+    font-weight: 200;
+    padding: 0px 10px 0px;
+}
+
+.jobtitle {
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: 200;
+    margin: 0px 0px 10px 0px;
+}
+
+.name{
+   font-size: 25px;
+   font-weight: 800;
+   margin: 20px 0px 5px 0px;
+   text-align: center;
+}
+
+button {
+    border-radius: 10px 10px 10px 10px;
+    width: 247px;
+    height: 34px;
+    color: #374151;
+    font-size: 14px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    padding: 0px 5px;
+}
+
+.icon {
+    padding: 10px 10px;
+}
